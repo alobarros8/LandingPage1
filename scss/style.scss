@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Exo 2", sans-serif;
+  background-image: url(../assets/hd-wallpaper-gac3b62d25_1920.jpg);
+  height: 100vh;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.row {
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  & sub {
+    padding-left: 0.5%;
+    color: rgb(4, 109, 0);
+    align-self: flex-end;
+  }
+}
+header {
+  background-color: rgba(240, 248, 255, 0.438);
+  width: 100%;
+  display: flex;
+}
+.navbar {
+  justify-content: end;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-end;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: end;
+  & li {
+    justify-self: end;
+    list-style-type: none;
+    padding: 3%;
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
