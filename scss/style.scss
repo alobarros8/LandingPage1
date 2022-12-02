@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+@import "../fontawesome-free-6.2.1-web/scss/fontawesome.scss";
+@import "../fontawesome-free-6.2.1-web/scss/solid.scss";
+@import "../fontawesome-free-6.2.1-web/scss/brands.scss";
+@import "../fontawesome-free-6.2.1-web/scss/solid.scss";
+
 * {
   margin: 0;
   padding: 0;
@@ -51,4 +57,39 @@ header {
       color: black;
     }
   }
+}
+.main {
+  background-color: rgba(240, 248, 255, 0.438);
+  margin-left: 20%;
+  padding: 3%;
+  margin-top: 3%;
+  justify-self: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  justify-items: center;
+  justify-content: center;
+}
+.svg {
+  width: 300px;
+}
+.text-center {
+  text-align: center;
+}
+.features {
+  margin-top: 3%;
+  background-color: rgba(240, 248, 255, 0.438);
+  flex-direction: column;
+  display: flex;
+}
+.c-title {
+  margin-top: 2%;
+}
+.row-2 {
+  padding: 2%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
 }
