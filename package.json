@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": { "compile:sass": "sass --watch scss/style.scss css/style.css"
-    
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.10.2"
+  }
 }

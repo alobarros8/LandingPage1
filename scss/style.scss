@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-@import "../fontawesome-free-6.2.1-web/scss/fontawesome.scss";
-@import "../fontawesome-free-6.2.1-web/scss/solid.scss";
-@import "../fontawesome-free-6.2.1-web/scss/brands.scss";
-@import "../fontawesome-free-6.2.1-web/scss/solid.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 * {
   margin: 0;
@@ -82,14 +78,27 @@ header {
   background-color: rgba(240, 248, 255, 0.438);
   flex-direction: column;
   display: flex;
+  justify-items: center;
 }
 .c-title {
   margin-top: 2%;
 }
 .row-2 {
+  margin-left: 7%;
   padding: 2%;
   width: 80%;
   display: flex;
   flex-direction: row;
   gap: 2%;
+}
+.card {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+.size-icon {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 200%;
 }
